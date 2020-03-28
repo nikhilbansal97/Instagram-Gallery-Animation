@@ -52,14 +52,6 @@ class InstagramView @JvmOverloads constructor(
     }
   }
 
-  /*override fun onMeasure(
-    widthMeasureSpec: Int,
-    heightMeasureSpec: Int
-  ) {
-    val size = MeasureSpec.getSize(widthMeasureSpec)
-    setMeasuredDimension(size, size)
-  }*/
-
   override fun onInterceptTouchEvent(ev: MotionEvent): Boolean = true
 
   override fun onTouchEvent(event: MotionEvent): Boolean {
