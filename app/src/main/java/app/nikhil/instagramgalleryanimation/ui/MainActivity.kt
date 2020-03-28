@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity(), InstagramView.InstagramViewListener {
   }
 
   private fun startMarginAnimation() {
-    val marginAnimator = ValueAnimator.ofInt(80, 20)
+    val marginAnimator = ValueAnimator.ofInt(80, 40)
       .apply {
         interpolator = OvershootInterpolator(2F)
         duration = 300
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity(), InstagramView.InstagramViewListener {
   }
 
   private fun reverseMarginAnimation() {
-    val marginAnimator = ValueAnimator.ofInt(20, 80)
+    val marginAnimator = ValueAnimator.ofInt(40, 80)
       .apply {
         interpolator = AccelerateInterpolator()
         duration = 300
