@@ -1,5 +1,7 @@
 # Instagram Gallery Overshoot Animation
 
+### 🚧 This repository is no longer being maintained. It has been moved to [Android UI Samples Repository](https://github.com/nikhilbansal97/Android-UI-Samples).
+
 ## What is it?
 This repository contains one of the ways to implement the Instagram Gallery Image Overshoot Animation.
 
